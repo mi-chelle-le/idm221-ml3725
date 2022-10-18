@@ -21,6 +21,11 @@ li{
     padding: 10px 20px;
 }
 
+.logo{
+    float: left;
+    height: auto;
+}
+
 a{
     text-align: center;
     color: #666E2F;
@@ -45,4 +50,12 @@ a:active{
 
 span{
     color:#666E2F;
+}
+
+.intro-text{
+    font-size: 2em;
+}
+
+h1 .intro-text{
+    font-size: 3em;
 }
