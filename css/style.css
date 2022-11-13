@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Staatliches&display=swap');
+
+:root {
+    --cream: #fefaf6;
+    --moss: #666E2F;
+    --honey: #EFBD80;
+    --walnut: #351910;
+    --charcoal: #252525;
+
+    --font-serif: "Montserrat", Verdana, Tahoma, serif;
+    --font-bold: "Staatliches", var(--font-serif);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cream);
+    font-family: var(--font-serif);
+    margin: 100;
+    padding: 100;
+    
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: var(--cream);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+a{
+    text-align: center;
+    color: #666E2F;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+a:hover{
+    color: #EFBD80;
+    transition: 0.5s;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+a:active{
+    text-decoration: none;
+}
+
+span{
+    color:#666E2F;
+}
+
+.intro section{
+    display: flex;
+    justify-content: center;
+}
+
+.introimg{
+    margin-top: -20px;
+}
+
+.introtext{
+    margin-top: -90px;
+    padding: 20px;
+    margin-bottom: -50px;
+}
+
+h3{
+    font-family: var(--font-bold);
+    font-weight: 400;
+    font-size: 1.25em;
+    text-align: center;
+}
