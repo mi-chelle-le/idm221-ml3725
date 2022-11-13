@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
 
 :root {
     --cream: #fefaf6;
@@ -13,6 +13,8 @@
 }
 
 * {
+    margin: 0;
+    padding:0;
     box-sizing: border-box;
 }
 
@@ -24,34 +26,34 @@ body {
     
 }
 
-header{
-    width: 100%;
-    height: 70px;
-    background-color: var(--cream);
-}
-
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 5px;
 }
 
 nav ul li{
     list-style: none;
     display: inline-block;
-    margin: 0 20px;
+    margin: 0 15px;
 }
 
-a{
+nav a{
     text-align: center;
     color: #666E2F;
     text-decoration: none;
-    font-family: Montserrat, sans-serif;
-    font-size: 20px;
+    font-family: var(--font-serif);
+    font-size: 1.35em;
     font-weight: 600;
 }
 
-a:hover{
+nav img{
+    margin: 7px;
+    padding-top: 5px;
+}
+
+nav a:hover{
     color: #EFBD80;
     transition: 0.5s;
 }
@@ -64,9 +66,28 @@ a:active{
     text-decoration: none;
 }
 
-span{
-    color:#666E2F;
+footer{
+    background-color: var(--moss);
+    padding-bottom: 10px;
+    margin-top: 10px;
 }
+
+footer h4{
+    padding: 5px;
+    padding-bottom: 5px;
+    color: var(--cream);
+    font-weight: 600;
+}
+footer section{
+    padding: 25px;
+}
+
+footer a{
+    color: var(--cream);
+    padding-left: 5px;
+}
+
+/*homepage css*/
 
 .intro section{
     display: flex;
@@ -86,6 +107,39 @@ span{
 h3{
     font-family: var(--font-bold);
     font-weight: 400;
-    font-size: 1.25em;
+    font-size: 1.5em;
     text-align: center;
+    margin-bottom: 0px;
+    color: var(--charcoal);
 }
+
+.arrow h3{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.casestudies section{
+    display: flex;
+    justify-content: center;
+}
+
+.casestudies h2{
+    font-family: var(--font-bold);
+    font-weight: 400;
+    font-size: 1.5em;
+    color: var(--charcoal);
+    margin-top: 3px;
+    margin-bottom: 30px;
+
+}
+
+.casestudies img{
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+    border-radius: 15px;
+}
+
+/*case study 1 css*/
+
