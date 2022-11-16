@@ -87,7 +87,7 @@ footer a{
     padding-left: 5px;
 }
 
-/*homepage css*/
+/*homepage, fun work page css*/
 
 .intro section{
     display: flex;
@@ -107,7 +107,7 @@ footer a{
 h3{
     font-family: var(--font-bold);
     font-weight: 400;
-    font-size: 1.5em;
+    font-size: 1.75em;
     text-align: center;
     margin-bottom: 0px;
     color: var(--charcoal);
@@ -119,12 +119,12 @@ h3{
     font-size: 1.5em;
 }
 
-.casestudies section{
+.casestudies section, .funwork section{
     display: flex;
     justify-content: center;
 }
 
-.casestudies h2{
+.casestudies h2, .funwork h2{
     font-family: var(--font-bold);
     font-weight: 400;
     font-size: 1.5em;
@@ -134,12 +134,24 @@ h3{
 
 }
 
-.casestudies img{
+.casestudies img, .funwork img{
     width: 100%;
     height: auto;
     max-width: 350px;
     border-radius: 15px;
 }
 
-/*case study 1 css*/
+.funworkintro section{
+    display:flex;
+    align-content: center;
+}
+
+.funworkintro h1{
+    font-family: var(--font-bold);
+    text-align: center;
+    font-size: 1.75em;
+    margin: 30px auto;
+}
+
+/*case study 1 and 2 css*/
 
