@@ -21,6 +21,7 @@
 body {
     background-color: var(--cream);
     font-family: var(--font-serif);
+    color:#252525;
     margin: 100;
     padding: 100;
     
@@ -154,4 +155,53 @@ h3{
 }
 
 /*case study 1 and 2 css*/
+
+.cafeclovercs h2{
+    font-family: var(--font-bold);
+    font-size: 2.25em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cafecloverinfo h3{
+    text-align: left;
+    font-size: 1.5em;
+    color:#666E2F;
+    margin-left: 30px;
+}
+
+.cafeclovermain h3{
+    text-align: left;
+    font-size: 1.75em;
+    color:#666E2F;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.cafeclovermain h4{
+    font-family: var(--font-bold);
+    text-align: left;
+    font-size: 1.5em;
+    color:#252525;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+p{
+    margin: 0px 30px 20px 30px;
+}
+
+.cafeclovercs ul li{
+    list-style: inside;
+    margin: 0px 30px 10px 30px;
+}
+
+.cafeclovercs img{
+    padding: 10px 30px;
+}
+
+.notice h3{
+    text-align: center;
+    margin: 30px;
+}
 
