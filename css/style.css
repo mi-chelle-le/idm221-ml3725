@@ -209,26 +209,59 @@ p{
     padding: 10px 30px;
 }
 
-/*fun work css*/
+/*about page css*/
 
-.funwork h2{
-    font-family: var(--font-bold);
-    font-size: 2.25em;
-    text-align: center;
-    margin-bottom: 20px;
+.about h3{
+    margin: 0px 30px 10px 30px;
 }
 
-.funworkinfo h3{
-    text-align: left;
+.contact{
+    margin: 25px;
+}
+
+.contact a{
+    color: var(--moss);
+    padding: 0px 5px;
     font-size: 1.5em;
-    color:#666E2F;
+}
+
+button{
+    color: var(--cream);
+    background-color: var(--moss);
+    border: none;
+    border-radius: 15px;
+    font-family: var(--font-bold);
+    text-align: center;
+    font-size: 1.25em;
+    padding: 5px 15px;
     margin-left: 30px;
 }
 
-.funworkmain h3{
+.resume h4{
     text-align: left;
+    font-family: var(--font-bold);
     font-size: 1.75em;
     color:#666E2F;
     margin-left: 30px;
     margin-top: 30px;
 }
+
+.resume h5{
+    text-align: left;
+    font-family: var(--font-serif);
+    font-size: 1em;
+    margin-left: 30px;
+}
+.resume ul{
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.resume ul li{
+    list-style: inside;
+    margin: 0px 30px 5px 30px;
+}
+
+.resume p{
+    margin: 0px 30px 0px 30px;
+}
+
