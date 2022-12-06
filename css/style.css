@@ -250,11 +250,10 @@ button{
     text-align: left;
     font-family: var(--font-serif);
     font-size: 1em;
-    margin-left: 30px;
+    margin: 5px 30px;
 }
 .resume ul{
-    margin-left: 20px;
-    margin-bottom: 30px;
+    margin: 5px 30px 30px 20px;
 }
 .resume ul li{
     list-style: inside;
@@ -262,6 +261,6 @@ button{
 }
 
 .resume p{
-    margin: 0px 30px 0px 30px;
+    margin: 0px 30px;
 }
 
