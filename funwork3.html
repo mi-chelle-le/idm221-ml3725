@@ -12,15 +12,19 @@
 <body>
     <header>
         <nav>
-            <a href="index.html"><img
-            alt="icon"
-            height="45"
-            width="45" 
-            src="assets/portfolioiconsmall.png" class="logo"/></a>
-            <ul>
-                <li><a href=index.html>work</a></li>
-                <li><a href="fun.html">fun</a></li>
-                <li><a href="about.html">about</a></li>
+            <ul class="nav-bar">
+                <li class="logo"><a href="index.html"><img
+                    height="60"
+                    width="60"
+                    src="assets/portfolioiconsmall.png"></a></li>
+                <input type="checkbox" id="check"/>
+                <span class="menu">
+                    <li><a href="index.html">work</a></li>
+                    <li><a href="fun.html">fun</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                </span>
+                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
             </ul>
         </nav>
 </header>

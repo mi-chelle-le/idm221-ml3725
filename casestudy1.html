@@ -12,15 +12,19 @@
 <body>
     <header>
         <nav>
-            <a href="index.html"><img
-            alt="icon"
-            height="45"
-            width="45" 
-            src="assets/portfolioiconsmall.png" class="logo"/></a>
-            <ul>
-                <li><a href="index.html">work</a></li>
-                <li><a href="fun.html">fun</a></li>
-                <li><a href="about.html">about</a></li>
+            <ul class="nav-bar">
+                <li class="logo"><a href="index.html"><img
+                    height="60"
+                    width="60"
+                    src="assets/portfolioiconsmall.png"></a></li>
+                <input type="checkbox" id="check"/>
+                <span class="menu">
+                    <li><a href="index.html">work</a></li>
+                    <li><a href="fun.html">fun</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                </span>
+                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
             </ul>
         </nav>
 </header>
@@ -33,7 +37,7 @@
         src="assets/cafeclovercover.png">
         <h2>Cafe Clover Website Redesign (WIP)</h2>
     </section>
-<div class="casestudyinfo">
+<div class="casestudyinfo"> 
     <section>
         <h3>Date</h3>
         <p>Sept 2022 - Present</p>
@@ -152,14 +156,14 @@
     </section>
 </div>
     <section class="notice">
-        <h3>This project is a WIP. More coming soon!</h3>
+        <h3>This project is a WIP. More coming soon!</h3> <!--Add more to this case study when project progresses. For now, WIP-->
     </section>
 </div>
 <footer class="footer">
     <section>
         <h4>let's connect!</h4>
-        <a target="_blank" href="mailto:ml3725@drexel.edu"><i class="fa fa-envelope"></i></i></a>
-        <a target="_blank" href="https://www.linkedin.com/in/mi-chelle-le/"><i class="fab fa-linkedin-in"></i></i></a>
+        <a target="_blank" href="mailto:ml3725@drexel.edu"><i class="fa fa-envelope"></i></a>
+        <a target="_blank" href="https://www.linkedin.com/in/mi-chelle-le/"><i class="fab fa-linkedin-in"></i></a>
     </section>
 </footer>
 </body>

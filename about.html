@@ -12,20 +12,24 @@
 <body>
     <header>
         <nav>
-            <a href="index.html"><img
-                alt="icon"
-                height="45"
-                width="45" 
-                src="assets/portfolioiconsmall.png" class="logo"/></a>
-                <ul>
+            <ul class="nav-bar">
+                <li class="logo"><a href="index.html"><img
+                    height="60"
+                    width="60"
+                    src="assets/portfolioiconsmall.png"></a></li>
+                <input type="checkbox" id="check"/>
+                <span class="menu">
                     <li><a href="index.html">work</a></li>
                     <li><a href="fun.html">fun</a></li>
                     <li><a href="about.html">about</a></li>
-                </ul>
+                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                </span>
+                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+            </ul>
         </nav>
 </header>
 <div class="about">
-<section>
+<section> <!--A short introduction to who I am, along with button links to my email and linkedin.-->
     <img
     alt="portrait"
     height="auto"
@@ -42,7 +46,7 @@
     <a target="_blank" href="https://www.linkedin.com/in/mi-chelle-le/"><i class="fab fa-linkedin-in"></i></a>
 </section>
 </div>
-<div class="resume">
+<div class="resume"> <!--Start of resume section. If user needs a PDF version of my resume, they can click the button to obtain that. Otherwise, the whole resume can be read on this page.-->
 <section>
     <a target="_blank" href="assets/portfolioresume.pdf"><button type="button">View Resume PDF</button></a>
 </section>
