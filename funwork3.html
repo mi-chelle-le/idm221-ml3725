@@ -12,20 +12,22 @@
 <body>
     <header>
         <nav>
-            <ul class="nav-bar">
-                <li class="logo"><a href="index.html"><img
-                    height="60"
-                    width="60"
-                    src="assets/portfolioiconsmall.png"></a></li>
-                <input type="checkbox" id="check"/>
-                <span class="menu">
+            <div class="logo">
+            <a href="index.html"><img
+                alt="logo"
+                height="60"
+                width="60"
+                src="assets/portfolioiconsmall.png"></a>
+            </div>
+            <div class="navbar">
+                <input type="checkbox" class="toggle-menu">
+                <div class="hamburger"></div>
+                <ul class="menu">
                     <li><a href="index.html">work</a></li>
                     <li><a href="fun.html">fun</a></li>
                     <li><a href="about.html">about</a></li>
-                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
-                </span>
-                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
-            </ul>
+                </ul>
+            </div>
         </nav>
 </header>
 <div class="casestudy">
@@ -45,85 +47,59 @@
 <div class="casestudymain">
     <section>
         <h3>About</h3>
-        <p>This bee, modeled after the Minecraft bee, is constructed from cardboard and painted with acrylics. There are two slits on top of the bee where the chipboard wings slide through and are glued to paperclips attached to the servo motor. When the Arduino is powered and the ultrasonic sensor on the bottom of the bee detects a distance < 0.5", the servo motor turns 90 degrees, moving the wings. There is a passive buzzer attached to the breadboard to mimic the buzzing of bees.</p>
+        <p>This bee, modeled after the Minecraft bee, is constructed from cardboard and painted with acrylics. There are two slits on top of the bee where the chipboard wings slide through and are glued to paperclips attached to the servo motor. When the Arduino is powered and the ultrasonic sensor on the bottom of the bee detects a distance &lt; 0.5", the servo motor turns 90 degrees, moving the wings. There is a passive buzzer attached to the breadboard to mimic the buzzing of bees.</p>
     </section>
     <section>
         <h3>Sketches</h3>
         <img
         alt="beesketches"
-        height="auto"
-        width="100%"
         src="assets/beesketches.png">
     </section>
     <section>
         <h3>Designing Illustrator Files</h3>
         <img
         alt="beeillustratorfiles"
-        height="auto"
-        width="100%"
         src="assets/beeillustratorfiles.gif">
     </section>
     <section>
         <h3>Arduino Setup + Code</h3>
         <img
         alt="arduinosetup"
-        height="auto"
-        width="100%"
         src="assets/arduinosetup.png">
         <img
         alt="arduinocode"
-        height="auto"
-        width="100%"
         src="assets/arduinobeecode.png">
     </section>
     <section>
         <h3>Assembly + Painting</h3>
         <img
         alt="process1"
-        height="auto"
-        width="100%"
         src="assets/process1.png">
         <img
         alt="process2"
-        height="auto"
-        width="100%"
         src="assets/process2.jpg">
         <img
         alt="process3"
-        height="auto"
-        width="100%"
         src="assets/process3.jpg">
         <img
         alt="process4"
-        height="auto"
-        width="100%"
         src="assets/process4.jpg">
         <img
         alt="arduinobee1"
-        height="auto"
-        width="100%"
         src="assets/arduinobee1.jpg">
         <img
         alt="arduinobee2"
-        height="auto"
-        width="100%"
         src="assets/arduinobee2.jpg">
         <img
         alt="arduinobee3"
-        height="auto"
-        width="100%"
         src="assets/arduinobee3.jpg">
         <img
         alt="arduinobee4"
-        height="auto"
-        width="100%"
         src="assets/arduinobee4.jpg">
     </section>
     <section>
         <h3>Video Demonstration</h3>
         <video
-        width="100%"
-        height="auto"
         poster="assets/"
         controls>
         <source src="assets/beeproject.mp4" type="video/mp4">

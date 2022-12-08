@@ -12,20 +12,22 @@
 <body>
     <header>
         <nav>
-            <ul class="nav-bar">
-                <li class="logo"><a href="index.html"><img
-                    height="60"
-                    width="60"
-                    src="assets/portfolioiconsmall.png"></a></li>
-                <input type="checkbox" id="check"/>
-                <span class="menu">
+            <div class="logo">
+            <a href="index.html"><img
+                alt="logo"
+                height="60"
+                width="60"
+                src="assets/portfolioiconsmall.png"></a>
+            </div>
+            <div class="navbar">
+                <input type="checkbox" class="toggle-menu">
+                <div class="hamburger"></div>
+                <ul class="menu">
                     <li><a href="index.html">work</a></li>
                     <li><a href="fun.html">fun</a></li>
                     <li><a href="about.html">about</a></li>
-                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
-                </span>
-                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
-            </ul>
+                </ul>
+            </div>
         </nav>
     </header>
 <div class="intro"> <!--Fun doodle of myself + short introduction of who I am and what I'm studying.-->
@@ -49,13 +51,12 @@
         <h3>check out my work below</h3>
     </section>
     <section class="arrow">
-        <h3>&#8595</h3>
+        <h3>&#8595;</h3>
     </section>
     <!--Clicking on the cover of each project will bring the user to the respective case study.-->
     <section class="case-study-1">
         <a href="casestudy1.html"><img
         alt="casestudy1"
-        height="auto"
         width="375"
         src="assets/cafeclovercover.png"
         /></a>
@@ -66,7 +67,6 @@
     <section class="case-study-2">
         <a href="casestudy2.html"><img
         alt="casestudy1"
-        height="auto"
         width="375"
         src="assets/catruncover.png"
         /></a>
